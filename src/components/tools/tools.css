@@ -1,0 +1,43 @@
+.box-tools {
+    background: rgba(40, 48, 54, 0.3);
+    padding: 80px 0 120px;
+}
+.box-tools h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #F9F9F9;
+    max-width: 450px;
+    margin: 0 auto 20px;
+}
+.box-tools p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ADB0B6;
+    max-width: 400px;
+    margin: 0 auto 80px;
+}
+.box-tools ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.box-tools ul li {
+    background: #1E252B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.box-tools ul li a {
+    text-align: center;
+}
