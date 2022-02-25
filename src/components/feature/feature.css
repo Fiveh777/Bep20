@@ -1,0 +1,97 @@
+.box-feature {
+  padding: 120px 0;
+}
+.box-feature .box-sub {
+  display: flex;
+  align-items: center;
+}
+.box-feature .box-sub .box-left,
+.box-feature .box-sub .box-right {
+  width: 50%;
+}
+.box-feature .box-sub h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #f9f9f9;
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+.box-feature .box-sub p.sub-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.box-feature .box-sub p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #adb0b6;
+  max-width: 450px;
+  margin: 0 0 20px;
+}
+.box-feature .box-learn .box-right {
+  padding-left: 120px;
+}
+.box-feature .box-play .box-left {
+  padding-right: 120px;
+}
+.box-feature .box-bottom {
+}
+.box-feature .box-bottom h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #f9f9f9;
+  margin-bottom: 65px;
+}
+.box-feature .box-bottom ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.box-feature .box-bottom ul li {
+  background: #2c353d;
+  border-radius: 20px;
+  padding: 40px;
+  background-image: url(./images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-feature .box-bottom ul li:nth-child(2) {
+  background-image: url(./images/bg2.png);
+}
+.box-feature .box-bottom ul li:nth-child(3) {
+  background-image: url(./images/bg3.png);
+}
+.box-feature .box-bottom ul li:nth-child(4) {
+  background-image: url(./images/bg4.png);
+}
+.box-feature .box-bottom ul li h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+.box-feature .box-bottom ul li p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #adb0b6;
+}

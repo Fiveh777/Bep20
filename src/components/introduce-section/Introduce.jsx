@@ -1,9 +1,9 @@
 import React from 'react'
 import './introduce.css';
-import ImageFirst from './images/Composition_02 5.png';
-import ImageSecondLeft from './images/image_2022_02_24T04_16_25_549Z.png';
-import ImageSecondRight from './images/image_2022_02_24T04_16_31_833Z.png';
-import ImageThrid from './images/081.png';
+import ImageFirst from './images/first.png';
+import ImageSecondLeft from './images/seconleft.png';
+import ImageSecondRight from './images/secondright.png';
+import ImageThird from './images/third.png';
 const Introduce = () => {
     return (
         <div className="box-introduce">
@@ -36,7 +36,7 @@ const Introduce = () => {
                 </div>
                 <div className="box-sub third-section">
                     <div className="box-left">
-                        <img src={ImageThrid} />
+                        <img src={ImageThird} />
                     </div>
                     <div className="box-right">
                         <h2>Eliminating the <span>“Winner takes all”</span> mindset is our motto!</h2>
