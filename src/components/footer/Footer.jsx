@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='footer-bottom'>
           <div className='box-top'>
             <div className='box-logo'>
-              <img src={Logo} />
+              <img src={Logo} className='logo'/>
               <ul>
                 <li>
                   <a href='#'><img src={Fb} /></a>
@@ -85,12 +85,15 @@ const Footer = () => {
           </div>
           <div className='box-bottom'>
             <div className="box-left">
-              ©BEP20 2022
+              <p>©BEP20 2022</p>
             </div>
             <ul className='sub-nav'>
               <li><a href='#'>Terms of Services</a></li>
               <li><a href='#'>Privacy Policy</a></li>
             </ul>
+            <div className="box-left mobile">
+              <p>©BEP20 2022</p>
+            </div>
           </div>
         </div>
       </div>

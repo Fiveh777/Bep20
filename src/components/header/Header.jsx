@@ -1,15 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './header.css';
 import Logo from './images/logo.png';
 
 const Header = () => {
+    const [itoggle, setItoggle] = useState(false)
+    const handleSubmit = () => {
+        setItoggle(!itoggle)
+    }
     return (
         <div className="box-header">
             <div className="container">
                 <div className="box-logo">
                     <img src={Logo} />
                 </div>
-                <div className="box-nav">
+                <div className={!itoggle ?"box-nav":"box-nav active"}>
                     <ul>
                         <li>
                             <a href='/'>Who We Are</a>
@@ -27,6 +31,12 @@ const Header = () => {
                             <a href='/'>About Us</a>
                         </li>
                     </ul>
+                </div>
+                <div className='nav-bar' onClick={handleSubmit}>
+                    <div className={!itoggle ?"bar-icon":"bar-icon active"}>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </div>

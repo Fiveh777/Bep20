@@ -26,6 +26,7 @@
     grid-template-columns: repeat(3,1fr);
     column-gap: 30px;
     margin-bottom: 90px;
+    padding: 0 30px;
 }
 .box-benefit ul li {
     background: #1E252B;
@@ -64,4 +65,30 @@
 }
 .box-benefit p.text-bottom span {
     color: #F7A501;
+}
+@media screen and (max-width: 767px) {
+    .box-benefit {
+        padding: 60px 0;
+    }
+    .box-benefit h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .box-benefit p.sub-title {
+        margin-bottom: 70px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .box-benefit ul {
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 20px;
+        padding: 0;
+        row-gap: 60px;
+    }
+    .box-benefit ul li {
+        padding: 0 30px 60px;
+    }
+    .box-benefit ul li p {
+        line-height: 24px;
+    }
 }

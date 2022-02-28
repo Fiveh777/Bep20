@@ -4,6 +4,7 @@ import ImageFirst from './images/first.png';
 import ImageSecondLeft from './images/seconleft.png';
 import ImageSecondRight from './images/secondright.png';
 import ImageThird from './images/third.png';
+import ImageThirdMobile from './images/thirdmobile.png';
 const Introduce = () => {
     return (
         <div className="box-introduce">
@@ -41,6 +42,7 @@ const Introduce = () => {
                     <div className="box-right">
                         <h2>Eliminating the <span>“Winner takes all”</span> mindset is our motto!</h2>
                         <p>Backed by blockchain, our initiative has the unwavering capability to eliminate the need for third parties and middlemen. Consequently, it will make the transaction process easy, convenient, flexible, and cheaper. Unlike the centralized financial system, BEP-20 provides you with a platform where you can self-bank all your transactions using our DeFi</p>
+                        <img src={ImageThirdMobile} className='imgmobile' />
                     </div>
                 </div>
             </div>

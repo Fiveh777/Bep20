@@ -2,6 +2,7 @@ import React from 'react'
 import './feature.css';
 import Learn from './images/Learn.png';
 import Play from './images/Play.png';
+import LearnMobile from './images/LearnMobile.png';
 const Feature = () => {
   return (
     <div className="box-feature">
@@ -15,6 +16,7 @@ const Feature = () => {
                     <p className='sub-title'>Our mission is to facilitate developers with the inevitable opportunity of “Learn to Earn.” </p>
                     <p>BEP-20 has the mission to offer a diverse platform for developers and gamers where they can Learn to Earn. Our Learn to Earn mission will enable gamers and developers to equip themselves with the growing technology, simultaneously making good earnings. </p>
                     <p>BEP-20 community presents all the available facilities for developers to learn new technology trends and make handsome earnings out of them. With equal benefits and power, these users will be able to make borderless transactions and can carry out self-banking through our DeFi system.</p>
+                    <img src={LearnMobile} className='imgmobile'/>
                 </div>
             </div>
             <div className='box-play box-sub'>
