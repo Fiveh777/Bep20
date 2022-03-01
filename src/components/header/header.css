@@ -1,29 +1,109 @@
 .box-header {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 .box-header > div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .box-header .box-logo {
-    width: 185px;
+  width: 185px;
 }
 .box-header .box-nav {
-    width: calc(100% - 185px);
+  width: calc(100% - 185px);
 }
 .box-header .box-nav ul {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: end;
 }
 .box-header .box-nav ul li {
-    padding: 0 24px;
+  padding: 0 24px;
+}
+.box-header .box-nav ul li:last-child {
+  padding-right: 0;
 }
 .box-header .box-nav ul li a {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+.box-header .nav-bar {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .box-header .nav-bar {
+    display: block;
+    z-index: 99999;
+  }
+  .bar-icon {
+    position: relative;
+    width: 22px;
+    height: 22px;
+}
+  .box-header .nav-bar .bar-icon span {
+    width: 22px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 5px 0;
+    border-radius: 3px;
+  }
+  .box-header .nav-bar .bar-icon.active span {
+    position: absolute;
+    left: 0;
+    top: 20%;
+  }
+  .box-header .nav-bar .bar-icon.active span:first-child {
+    transform: rotate(45deg);
+  }
+  .box-header .nav-bar .bar-icon.active span:last-child {
+    transform: rotate(-45deg);
+  }
+  .box-header .box-nav {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: -290px;
+    width: 100%;
+    overflow-y: auto;
+    z-index: 1002;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+  }
+  .box-header .box-nav.active {
+    display: block;
+    opacity: 1;
+    -webkit-transform: translateY(345px);
+    -moz-transform: translateY(345px);
+    -ms-transform: translateY(345px);
+    -o-transform: translateY(345px);
+    transform: translateY(345px);
+  }
+  .box-header > div {
+    position: relative;
+    justify-content: space-between;
+  }
+  .box-header .box-nav ul {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-color: #1e252b;
+    padding: 20px 15px;
+  }
+  .box-header .box-nav ul li {
+    padding: 0;
+  }
+  .box-header .box-nav ul li a {
     font-size: 16px;
-    line-height: 24px;
-    color: #F9F9F9;
-    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #f7a501;
+  }
 }

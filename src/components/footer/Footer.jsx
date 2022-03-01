@@ -13,15 +13,10 @@ const Footer = () => {
   return (
     <div className='box-footer'>
       <div className='container'>
-        <div className='footer-top'>
-          <h3>Want to know how to market your NFT Collections? </h3>
-          <p>Head over to our blog for best tips</p>
-          <a href='#'>Want to know</a>
-        </div>
         <div className='footer-bottom'>
           <div className='box-top'>
             <div className='box-logo'>
-              <img src={Logo} />
+              <img src={Logo} className='logo'/>
               <ul>
                 <li>
                   <a href='#'><img src={Fb} /></a>
@@ -85,12 +80,15 @@ const Footer = () => {
           </div>
           <div className='box-bottom'>
             <div className="box-left">
-              ©BEP20 2022
+              <p>©BEP20 2022</p>
             </div>
             <ul className='sub-nav'>
               <li><a href='#'>Terms of Services</a></li>
               <li><a href='#'>Privacy Policy</a></li>
             </ul>
+            <div className="box-left mobile">
+              <p>©BEP20 2022</p>
+            </div>
           </div>
         </div>
       </div>

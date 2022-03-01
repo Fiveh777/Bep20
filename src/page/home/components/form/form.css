@@ -1,0 +1,63 @@
+.box-form {
+    padding: 150px 0 0px;
+}
+.form {
+    text-align: center;
+    padding: 65px 20px;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+.form h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #F9F9F9;
+    margin-bottom: 15px;
+}
+.form p {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ADB0B6;
+    margin-bottom: 40px;
+}
+.form a {
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 25px 40px;
+    text-decoration: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1E252B;
+}
+@media screen and (max-width: 767px) {
+    .box-form {
+        padding: 50px 0 0px;
+    }
+    .form {
+        padding: 40px 15px;
+        margin-bottom: 60px;
+    }
+    .form h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .form p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

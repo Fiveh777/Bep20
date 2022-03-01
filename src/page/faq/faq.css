@@ -1,0 +1,86 @@
+.box-faq {
+    padding: 80px 0 180px;
+}
+.box-faq h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 82px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #F9F9F9;
+    margin-bottom: 100px;
+}
+.box-faq .box-acc {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.box-faq .box-acc .accordion-item {
+    margin-bottom: 20px;
+}
+.box-faq .box-acc h2 {
+    margin-bottom: 0;;
+}
+.box-faq .box-acc .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F9F9F9;
+    background: #2C353D;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+.box-faq .box-acc .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.box-faq .box-acc .accordion-button:not(.collapsed)::after {
+    transform: rotate(-135deg);
+}
+.box-faq .box-acc .accordion-body {
+    padding: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #F9F9F9;
+}
+@media screen and (max-width: 767px) {
+    .box-faq {
+        padding: 30px 0 100px;
+    }
+    .box-faq h2 {
+        margin-bottom: 30px;
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .box-faq .box-acc .accordion-button {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .box-faq .box-acc .accordion-body {
+        padding: 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+  }
