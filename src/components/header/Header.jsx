@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom';
 import './header.css';
 import Logo from './images/logo.png';
 
@@ -11,12 +12,14 @@ const Header = () => {
         <div className="box-header">
             <div className="container">
                 <div className="box-logo">
-                    <img src={Logo} />
+                    <Link to='/'>
+                        <img src={Logo} />
+                    </Link>
                 </div>
                 <div className={!itoggle ?"box-nav":"box-nav active"}>
                     <ul>
                         <li>
-                            <a href='/'>Who We Are</a>
+                            <Link to='/about'>Who We Are</Link>
                         </li>
                         <li>
                             <a href='/'>Learn and Play</a>

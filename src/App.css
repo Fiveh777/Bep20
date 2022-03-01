@@ -75,6 +75,11 @@ h1, h2, h3, h4, h5, h6, p {
   width: calc(100% + 30px);
   max-width: calc(100% + 30px );
 }
+br {
+  display: block;
+  margin: 15px 0;
+  content: " ";
+}
 @media screen and (max-width: 1220px) {
   .container {
     max-width: 1200px;
@@ -85,5 +90,8 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 767px) {
   .imgmobile {
     display: block;
+  }
+  br {
+    margin: 7px 0;
   }
 }

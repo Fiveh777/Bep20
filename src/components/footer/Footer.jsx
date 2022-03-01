@@ -13,11 +13,6 @@ const Footer = () => {
   return (
     <div className='box-footer'>
       <div className='container'>
-        <div className='footer-top'>
-          <h3>Want to know how to market your NFT Collections? </h3>
-          <p>Head over to our blog for best tips</p>
-          <a href='#'>Want to know</a>
-        </div>
         <div className='footer-bottom'>
           <div className='box-top'>
             <div className='box-logo'>
