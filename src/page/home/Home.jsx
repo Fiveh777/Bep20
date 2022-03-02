@@ -7,7 +7,7 @@ import Form from './components/form/form';
 
 const Home = () => {
   return (
-    <div>
+    <div className="box-home">
       <Introduce/>
       <Tools/>
       <Feature/>

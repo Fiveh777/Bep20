@@ -12,21 +12,22 @@ import {
 import TermsConditions from './page/term-conditions/TermsConditions';
 import Faq from './page/faq/Faq';
 import AboutUs from './page/about-us/AboutUs';
+import GameFi from './page/gamefi/GameFi';
 
 function App() {
   return (
     <div className="App">
       <Header/>
         <Routes>
-          <Route path="/about" element={<Section1 />}>
-          </Route>
           <Route path="/" element={<Home />}>
           </Route>
           <Route path="/terms-conditions" element={<TermsConditions />}>
           </Route>
           <Route path="/faq" element={<Faq />}>
           </Route>
-          <Route path="/aboutus" element={<AboutUs />}>
+          <Route path="/about-us" element={<AboutUs />}>
+          </Route>
+          <Route path="/gamefi" element={<GameFi />}>
           </Route>
         </Routes>
       <Footer/>

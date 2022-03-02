@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="box-sub first-section">
           <div className="box-left">
             <h2>
-              A few words
+              A few words 
               <span>About us</span>
             </h2>
             <p>
@@ -55,6 +55,7 @@ const Banner = () => {
             </p>
           </div>
         </div>
+        <div className="box-overlay">
         <div className="box-sub third-section">
           <div className="box-left">
             <img src={OfficeGal} />
@@ -77,6 +78,7 @@ const Banner = () => {
               multiple financial actions in an equally progressive community.{" "}
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

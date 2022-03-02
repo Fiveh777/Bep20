@@ -1,6 +1,6 @@
 .tearms-conditions {
   max-width: 830px;
-  padding: 90px 15px 150px;
+  padding: 90px 15px 0px;
   margin: 0 auto;
 }
 .tearms-conditions h2 {
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 767px) {
   .tearms-conditions {
-    padding: 60px 15px 100px;
+    padding: 60px 15px 0px;
   }
   .tearms-conditions h2 {
     margin-bottom: 20px;
