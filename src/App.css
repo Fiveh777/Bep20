@@ -89,7 +89,7 @@ br {
 }
 @media screen and (max-width: 767px) {
   .imgmobile {
-    display: block;
+    display: block !important;
   }
   br {
     margin: 7px 0;
