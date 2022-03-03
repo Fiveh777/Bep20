@@ -19,23 +19,23 @@ const Header = () => {
                 <div className={!itoggle ?"box-nav":"box-nav active"}>
                     <ul>
                         <li>
-                            <Link to='/about'>Who We Are</Link>
+                            <Link to="/">Who We Are</Link>
                         </li>
                         <li>
-                            <a href='/'>Learn and Play</a>
+                            <Link to="/">Learn and Play</Link>
                         </li>
                         <li>
-                            <a href='/'>GameFi</a>
+                            <Link to="/gamefi">GameFi</Link>
                         </li>
                         <li>
-                            <a href='/'>DeFi Governance's</a>
+                            <Link to="/">DeFi Governance's</Link>
                         </li>
                         <li>
-                            <a href='/'>About Us</a>
+                            <Link to="/about-us">About Us</Link>
                         </li>
                     </ul>
                 </div>
-                <div className='nav-bar' onClick={handleSubmit}>
+                <div className="nav-bar" onClick={handleSubmit}>
                     <div className={!itoggle ?"bar-icon":"bar-icon active"}>
                         <span></span>
                         <span></span>

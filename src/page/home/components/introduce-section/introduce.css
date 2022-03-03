@@ -175,7 +175,7 @@
   .box-introduce .box-sub.first-section {
     margin-bottom: 0;
   }
-  .box-sub.second-section {
+  .box-introduce .box-sub.second-section {
     padding: 40px 30px;
   }
   .box-introduce .box-sub.second-section p,
@@ -188,11 +188,12 @@
   }
   .box-introduce .box-sub.second-section .box-right {
     padding-top: 50px;
+    padding-left: 0;
   }
   .box-introduce .box-sub.second-section .box-left::after {
     display: none;
   }
-  .box-introduce  .box-sub.third-section {
+  .box-introduce .box-sub.third-section {
     padding: 60px 0;
   }
   .box-introduce .box-sub.third-section h2 {
@@ -216,7 +217,10 @@
     line-height: 24px;
   }
   .box-introduce .box-sub.third-section .box-left {
-      display: none;
+    display: none;
+  }
+  .box-introduce .box-sub.third-section .box-right {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 600px) {

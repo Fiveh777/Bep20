@@ -8,7 +8,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-    margin-bottom: 150px;
 }
 .form h3 {
     font-family: Gilroy;
@@ -49,7 +48,6 @@
     }
     .form {
         padding: 40px 15px;
-        margin-bottom: 60px;
     }
     .form h3 {
         font-size: 24px;

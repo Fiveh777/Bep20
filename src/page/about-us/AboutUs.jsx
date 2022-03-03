@@ -1,16 +1,14 @@
-import React from 'react'
-import Banner from './components/banner/Banner'
+import React from "react";
+import Banner from "./components/banner/Banner";
+import Token from "./components/token/Token";
 
 const AboutUs = () => {
   return (
-    <div className='about-page'>
-      <div className='section-1'>
-        <div className='container'>
-          <Banner/>
-        </div>
-      </div>
+    <div className="about-page">
+        <Banner />
+        <Token />
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
