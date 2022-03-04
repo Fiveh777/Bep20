@@ -1,0 +1,110 @@
+.box-defigovernance {
+    overflow: hidden;
+  }
+  .box-defigovernance .box-container {
+    padding: 100px 15px 50px;
+    position: relative;
+    max-width: 1030px;
+    margin: 0 auto;
+  }
+  .box-defigovernance .box-container::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    right: -200px;
+    top: 50px;
+    background: linear-gradient(
+      135.15deg,
+      #ae80dc 1.17%,
+      #dc83c3 31.88%,
+      #8084dc 65.46%
+    );
+    mix-blend-mode: overlay;
+    opacity: 0.6;
+    filter: blur(278.261px);
+  }
+  .box-defigovernance h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 0.015em;
+    color: #f9f9f9;
+    margin-bottom: 90px;
+  }
+  .box-defigovernance h2 span {
+    color: #f7a501;
+  }
+  .box-defigovernance .box-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .box-defigovernance .box-content p.sub-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #adb0b6;
+  }
+  .box-defigovernance .box-content ul li {
+    margin-top: 70px;
+  }
+  .box-defigovernance .box-content ul li img {
+    margin-left: -35px;
+  }
+  .box-defigovernance .box-content ul li h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.005em;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  .box-defigovernance .box-content ul li p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #adb0b6;
+  }
+  @media screen and (max-width: 1024px) {
+    .box-defigovernance .box-container {
+      padding: 60px 15px 20px;
+    }
+    .box-defigovernance h2 {
+      margin-bottom: 60px;
+    }
+    .box-defigovernance .box-content ul li {
+      margin-top: 30px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .box-defigovernance h2 {
+      margin-bottom: 20px;
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .box-defigovernance .box-content p.sub-title {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .box-defigovernance .box-content ul li {
+      margin-top: 30px;
+    }
+    .box-defigovernance .box-content ul li h3 {
+      font-size: 22px;
+      line-height: 36px;
+    }
+    .box-defigovernance .box-content ul li p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  
