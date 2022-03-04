@@ -13,6 +13,8 @@ import TermsConditions from './page/term-conditions/TermsConditions';
 import Faq from './page/faq/Faq';
 import AboutUs from './page/about-us/AboutUs';
 import GameFi from './page/gamefi/GameFi';
+import LearnToEarn from './page/learn-to-earn/LearnToEarn';
+import DeFiGovernance from './page/defi-governances/DeFiGovernance';
 
 function App() {
   return (
@@ -28,6 +30,10 @@ function App() {
           <Route path="/about-us" element={<AboutUs />}>
           </Route>
           <Route path="/gamefi" element={<GameFi />}>
+          </Route>
+          <Route path="/learntoearn" element={<LearnToEarn />}>
+          </Route>
+          <Route path="/defigovernance" element={<DeFiGovernance />}>
           </Route>
         </Routes>
       <Footer/>

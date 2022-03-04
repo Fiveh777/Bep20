@@ -1,0 +1,179 @@
+.box-gamefi {
+  overflow: hidden;
+}
+.box-gamefi .box-banner .box-sub {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  align-items: center;
+}
+.box-gamefi .box-banner .box-top {
+  padding: 50px 0;
+  border-bottom: 2px solid rgba(249, 249, 249, 0.2);
+}
+.box-gamefi .box-banner .box-top .box-right {
+  text-align: center;
+  position: relative;
+}
+.box-gamefi .box-banner .box-top .box-right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    135.15deg,
+    #ae80dc 1.17%,
+    #dc83c3 31.88%,
+    #8084dc 65.46%
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.6;
+  filter: blur(278.261px);
+}
+.box-gamefi .box-banner .box-top .box-right img {
+  max-height: 500px;
+}
+.box-gamefi .box-banner .box-top .box-left h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 82px;
+  letter-spacing: 0.015em;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.box-gamefi .box-banner .box-top .box-left h2 span {
+  color: #f7a501;
+}
+.box-gamefi .box-banner .box-top .box-left p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #adb0b6;
+  max-width: 500px;
+}
+.box-gamefi .box-banner .box-bottom {
+  padding: 30px 0 120px;
+}
+.box-gamefi .box-banner .box-bottom .box-left {
+  position: relative;
+}
+.box-gamefi .box-banner .box-bottom .box-left::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 389px;
+  width: 389px;
+  background: linear-gradient(
+    135.15deg,
+    #ae80dc 1.17%,
+    #dc83c3 31.88%,
+    #8084dc 65.46%
+  );
+  mix-blend-mode: overlay;
+  filter: blur(160px);
+}
+.box-gamefi .box-banner .box-bottom h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0.015em;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+.box-gamefi .box-banner .box-bottom p.sub-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f9f9f9;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+.box-gamefi .box-banner .box-bottom p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #adb0b6;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+.box-gamefi .box-banner .box-bottom a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9f9f9;
+  text-decoration: none;
+  padding: 16px 26px;
+  border: 1px solid #f9f9f9;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+  .box-gamefi .box-banner .box-top .box-left h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .box-gamefi .box-banner .box-top .box-right img {
+    max-height: 400px;
+  }
+  .box-gamefi .box-banner .box-bottom h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .box-gamefi .box-banner .box-sub {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-gamefi .box-banner .box-top {
+    padding: 30px 0;
+  }
+  .box-gamefi .box-banner .box-top .box-left h2 {
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 20px;
+  }
+  .box-gamefi .box-banner .box-top .box-left p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .box-gamefi .box-banner .box-bottom {
+    padding: 30px 0 0;
+  }
+  .box-gamefi .box-banner .box-bottom .box-left {
+    order: 2;
+  }
+  .box-gamefi .box-banner .box-bottom h2 {
+    font-size: 36px;
+    line-height: 68px;
+  }
+  .box-gamefi .box-banner .box-bottom p.sub-title {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+  .box-gamefi .box-banner .box-bottom p {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+}

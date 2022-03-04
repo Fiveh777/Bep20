@@ -22,13 +22,13 @@ const Header = () => {
                             <Link to="/">Who We Are</Link>
                         </li>
                         <li>
-                            <Link to="/">Learn and Play</Link>
+                            <Link to="/learntoearn">Learn and Play</Link>
                         </li>
                         <li>
                             <Link to="/gamefi">GameFi</Link>
                         </li>
                         <li>
-                            <Link to="/">DeFi Governance's</Link>
+                            <Link to="/defigovernance">DeFi Governance's</Link>
                         </li>
                         <li>
                             <Link to="/about-us">About Us</Link>

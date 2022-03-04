@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './footer.css';
 import Logo from './images/logo.png';
 import Fb from './images/1.png';
@@ -19,25 +20,25 @@ const Footer = () => {
               <img src={Logo} className='logo'/>
               <ul>
                 <li>
-                  <a href='#'><img src={Fb} /></a>
+                  <Link to='#'><img src={Fb} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={Tw} /></a>
+                  <Link to='#'><img src={Tw} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={Rd} /></a>
+                  <Link to='#'><img src={Rd} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={M} /></a>
+                  <Link to='#'><img src={M} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={Dc} /></a>
+                  <Link to='#'><img src={Dc} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={Tl} /></a>
+                  <Link to='#'><img src={Tl} /></Link>
                 </li>
                 <li>
-                  <a href='#'><img src={Yt} /></a>
+                  <Link to='#'><img src={Yt} /></Link>
                 </li>
               </ul>
             </div>
@@ -45,35 +46,35 @@ const Footer = () => {
               <div className='nav-item'>
                 <h3>Resources</h3>
                 <ul>
-                  <li><a href='#'>Who We Are</a></li>
-                  <li><a href='#'>Learn and Play</a></li>
-                  <li><a href='#'>GameFi</a></li>
-                  <li><a href='#'>DeFi Governance's</a></li>
+                  <li><Link to='#'>Who We Are</Link></li>
+                  <li><Link to='#'>Learn and Play</Link></li>
+                  <li><Link to='#'>GameFi</Link></li>
+                  <li><Link to='#'>DeFi Governance's</Link></li>
                 </ul>
               </div>
               <div className='nav-item'>
                 <h3>Solutions</h3>
                 <ul>
-                  <li><a href='#'>Decentralized Finance</a></li>
-                  <li><a href='#'>Security Tokens</a></li>
-                  <li><a href='#'>SEC-Registred Offerings</a></li>
-                  <li><a href='#'>About Us</a></li>
+                  <li><Link to='#'>Decentralized Finance</Link></li>
+                  <li><Link to='#'>Security Tokens</Link></li>
+                  <li><Link to='#'>SEC-Registred Offerings</Link></li>
+                  <li><Link to='#'>About Us</Link></li>
                 </ul>
               </div>
               <div className='nav-item'>
                 <h3>Partners</h3>
                 <ul>
-                  <li><a href='#'>Valued Partners</a></li>
-                  <li><a href='#'>Grants</a></li>
-                  <li><a href='#'>Join Us</a></li>
+                  <li><Link to='#'>Valued Partners</Link></li>
+                  <li><Link to='#'>Grants</Link></li>
+                  <li><Link to='#'>Join Us</Link></li>
                 </ul>
               </div>
               <div className='nav-item'>
                 <h3>Company</h3>
                 <ul>
-                  <li><a href='#'>About Us</a></li>
-                  <li><a href='#'>Leadership</a></li>
-                  <li><a href='#'>Contact</a></li>
+                  <li><Link to='#'>About Us</Link></li>
+                  <li><Link to='#'>Leadership</Link></li>
+                  <li><Link to='#'>Contact</Link></li>
                 </ul>
               </div>
             </div>
@@ -83,8 +84,8 @@ const Footer = () => {
               <p>©BEP20 2022</p>
             </div>
             <ul className='sub-nav'>
-              <li><a href='#'>Terms of Services</a></li>
-              <li><a href='#'>Privacy Policy</a></li>
+              <li><Link to='#'>Terms of Services</Link></li>
+              <li><Link to='#'>Privacy Policy</Link></li>
             </ul>
             <div className="box-left mobile">
               <p>©BEP20 2022</p>

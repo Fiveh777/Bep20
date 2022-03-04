@@ -1,0 +1,76 @@
+.box-gamefi .box-case .box-content {
+  padding: 80px 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  align-items: center;
+}
+.box-gamefi .box-case .box-content h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0.015em;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+.box-gamefi .box-case .box-content p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #adb0b6;
+  max-width: 450px;
+}
+.box-gamefi .box-case .box-content .box-right {
+  text-align: center;
+  position: relative;
+}
+.box-gamefi .box-case .box-content .box-right::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 560px;
+  height: 560px;
+  background: linear-gradient(
+    135.15deg,
+    #ae80dc 1.17%,
+    #dc83c3 31.88%,
+    #8084dc 65.46%
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.6;
+  filter: blur(278.261px);
+}
+.box-gamefi .box-case .box-content .box-right img {
+  max-width: 500px;
+}
+@media screen and (max-width: 1024px) {
+  .box-gamefi .box-case .box-content h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .box-gamefi .box-case .box-content .box-right img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .box-gamefi .box-case .box-content {
+    padding: 50px 0 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-gamefi .box-case .box-content h2 {
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 20px;
+  }
+  .box-gamefi .box-case .box-content p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
