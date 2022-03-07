@@ -185,6 +185,7 @@
   .box-introduce .box-sub.second-section .box-left {
     padding-bottom: 50px;
     border-bottom: 5px solid rgba(116, 143, 181, 0.1);
+    padding-right: 0;
   }
   .box-introduce .box-sub.second-section .box-right {
     padding-top: 50px;

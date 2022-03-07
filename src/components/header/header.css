@@ -64,26 +64,21 @@
   }
   .box-header .box-nav {
     opacity: 0;
-    position: absolute;
-    left: 0;
-    top: -290px;
-    width: 100%;
-    overflow-y: auto;
     z-index: 1002;
-    -webkit-transition: transform 0.5s ease-in-out;
-    -moz-transition: transform 0.5s ease-in-out;
-    -ms-transition: transform 0.5s ease-in-out;
-    -o-transition: transform 0.5s ease-in-out;
-    transition: transform 0.3s ease-in-out;
+    transition: 0.2s;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background: #1e252b;
   }
   .box-header .box-nav.active {
-    display: block;
     opacity: 1;
-    -webkit-transform: translateY(345px);
-    -moz-transform: translateY(345px);
-    -ms-transform: translateY(345px);
-    -o-transform: translateY(345px);
-    transform: translateY(345px);
+    transform: translateX(0);
   }
   .box-header > div {
     position: relative;
@@ -94,7 +89,7 @@
     justify-content: end;
     flex-direction: column;
     background-color: #1e252b;
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
   .box-header .box-nav ul li {
     padding: 0;
